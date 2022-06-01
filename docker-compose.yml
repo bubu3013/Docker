@@ -1,0 +1,9 @@
+version: "3.9"
+services: 
+  mycontainer: 
+    image: mycentos
+    build: .
+    volumes:
+      - "C:/Users/Silvia/PMRSMR:/storage"
+    tty: true
+    stdin_open: true
